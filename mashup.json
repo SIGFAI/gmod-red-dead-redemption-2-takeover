@@ -1,0 +1,212 @@
+{
+  "id": "sigf/gmod-red-dead-redemption-2-takeover",
+  "version": "1.0.0",
+  "name": "Red Dead Redemption 2 Takeover",
+  "tagline": "Bring Red Dead Redemption 2 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gmod",
+      "role": "host",
+      "engine": "Garry's Mod (Source, 64-bit branch) + Lua addon, Sandbox listen server",
+      "apps": {
+        "steam": "4000"
+      }
+    },
+    {
+      "game": "rdr2",
+      "role": "guest",
+      "label": "Red Dead Redemption 2"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "gmod",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gmod-red-dead-redemption-2-takeover-addon-kit.zip",
+          "dst": "{game}/garrysmod/addons/sigf_red_dead_redemption_2_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "lua/autorun/sigf_kit.lua",
+              "sha256": "997f9cd687a37c26ae0224699ee0b189367e9ab2b232acca7c8c9829459882f7"
+            },
+            {
+              "path": "lua/sigf_kit/cl_bricks.lua",
+              "sha256": "a78651503449000a81bf348477ec9a5867452e42f1848021632798ef6c63918e"
+            },
+            {
+              "path": "lua/sigf_kit/cl_stage.lua",
+              "sha256": "b4a53055318568a93674697ad487dbd747c013c0ce20cd320f67cc6248f71f8c"
+            },
+            {
+              "path": "lua/sigf_kit/sh_bricks.lua",
+              "sha256": "29f773258c2c750a05ec6a8a72abfc58e9d59cff2fddc456750ebbcbc05d42a3"
+            },
+            {
+              "path": "lua/sigf_kit/sh_stage.lua",
+              "sha256": "04fac2c59696deddef5bb7ec8fe005f3233a09b4df5d8743a7037fdfdf701b75"
+            },
+            {
+              "path": "lua/sigf_kit/sv_bricks.lua",
+              "sha256": "ce18b8dfe3d4338580f872013bae90218b7fd023b58699bd8ef770fbf61e0c49"
+            },
+            {
+              "path": "lua/sigf_kit/sv_stage.lua",
+              "sha256": "42998cfb11d034a692e2cc58a476d0fd90717419a67c74af554e07e568e9bda0"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gmod-red-dead-redemption-2-takeover/releases/download/v1.0.0/gmod-red-dead-redemption-2-takeover-addon-kit.zip",
+          "sha256": "de090fbbc1ae7562f642d8c6a97e17bcb6619407cf4b246c8dbc071b3e5dfae6",
+          "size": 18083
+        },
+        {
+          "src": "gmod-red-dead-redemption-2-takeover.zip",
+          "dst": "{game}/garrysmod/addons/sigf_red_dead_redemption_2_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "lua/autorun/sigf_kit.lua",
+              "sha256": "997f9cd687a37c26ae0224699ee0b189367e9ab2b232acca7c8c9829459882f7"
+            },
+            {
+              "path": "lua/sigf_kit/cl_bricks.lua",
+              "sha256": "a78651503449000a81bf348477ec9a5867452e42f1848021632798ef6c63918e"
+            },
+            {
+              "path": "lua/sigf_kit/cl_stage.lua",
+              "sha256": "b4a53055318568a93674697ad487dbd747c013c0ce20cd320f67cc6248f71f8c"
+            },
+            {
+              "path": "lua/sigf_kit/sh_bricks.lua",
+              "sha256": "29f773258c2c750a05ec6a8a72abfc58e9d59cff2fddc456750ebbcbc05d42a3"
+            },
+            {
+              "path": "lua/sigf_kit/sh_stage.lua",
+              "sha256": "04fac2c59696deddef5bb7ec8fe005f3233a09b4df5d8743a7037fdfdf701b75"
+            },
+            {
+              "path": "lua/sigf_kit/sv_bricks.lua",
+              "sha256": "ce18b8dfe3d4338580f872013bae90218b7fd023b58699bd8ef770fbf61e0c49"
+            },
+            {
+              "path": "lua/sigf_kit/sv_stage.lua",
+              "sha256": "42998cfb11d034a692e2cc58a476d0fd90717419a67c74af554e07e568e9bda0"
+            },
+            {
+              "path": "lua/sigf_mod/cl.lua",
+              "sha256": "0415fe0f28923730db6a9e55a81686952009e55f60621efc631a8c4878d912b1"
+            },
+            {
+              "path": "lua/sigf_mod/demo.lua",
+              "sha256": "799cfcf661ccd7475511a58ba6917ec18376b6b54b16efcd706ba91ce01a0539"
+            },
+            {
+              "path": "lua/sigf_mod/sv.lua",
+              "sha256": "cdf76e7365cfdd98a2f2fe775763f6424aa4975a2765f8fe45ddb87fa94b2ef5"
+            },
+            {
+              "path": "materials/sigf/dirt.vmt",
+              "sha256": "b666f1036f55ef3db7d9d03b3d8c656c7a1d03dc3f32ad001e3c6c0d2ad7d6da"
+            },
+            {
+              "path": "materials/sigf/dirt.vtf",
+              "sha256": "585f266902eb1964bc9ba89a8369d8b0ab8effcbca2ec277fa8196b04bd96596"
+            },
+            {
+              "path": "materials/sigf/planks.vmt",
+              "sha256": "8506c28707d508854075ffebeabd3be7e6ebab9aab1d9a31ca9ce3939e668490"
+            },
+            {
+              "path": "materials/sigf/planks.vtf",
+              "sha256": "21429e02b124e8797e2c19a8ab38f92c2bb69e5f6a6d79561dfbc92134c4849c"
+            },
+            {
+              "path": "materials/sigf/tumble.vmt",
+              "sha256": "710a8beeb5acfb16105fea27f60480e472da3389006fd0e54513182dc80da311"
+            },
+            {
+              "path": "materials/sigf/tumble.vtf",
+              "sha256": "41263a010988548c45a4c7478ead95b57b6e02c2267b3ac5111185d599199c20"
+            },
+            {
+              "path": "materials/sigf/wanted.vmt",
+              "sha256": "39a980273de995d386f04d0c0cd3e92127a37872303fb0272f62c719a3411ad3"
+            },
+            {
+              "path": "materials/sigf/wanted.vtf",
+              "sha256": "176d4d33c5b6fc10f529b95bf134c229e0a2e2f8be2924aa0c784fee42f91fe0"
+            },
+            {
+              "path": "sound/sigf/deadeye.wav",
+              "sha256": "75d4566394eb28c5e9775b9916f28a1ef8f0f7a35bde9770ed1634256247400d"
+            },
+            {
+              "path": "sound/sigf/harmonica.wav",
+              "sha256": "6dc767b1d2d127d4d2baf8d0487fa176772cff3062a59cb49a150d3d59bb5862"
+            },
+            {
+              "path": "sound/sigf/horse.wav",
+              "sha256": "b43fc8e7937e2eabd1095fc884eab6a1b42504636412d9b9847bff90c1656601"
+            },
+            {
+              "path": "sound/sigf/revolver.wav",
+              "sha256": "dd026e359b15f5cb69cfdc76ea425bc3d05d89223477dabc018a56dcb443cfac"
+            },
+            {
+              "path": "sound/sigf/saloon.wav",
+              "sha256": "17278279bf34c4ce61c9e6b69f40f134f90d2d8071f201d4e9361ed58c7a303d"
+            },
+            {
+              "path": "sound/sigf/spurs.wav",
+              "sha256": "ea5e92dd32a0c974e3e2c17e41749aa25499624e6829ed9c659e0e5b1f5a28f8"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gmod-red-dead-redemption-2-takeover/releases/download/v1.0.0/gmod-red-dead-redemption-2-takeover.zip",
+          "sha256": "b80ee01ad390912740062ef388501b8074a2e4ff63cf51ecec79cb41cf425f53",
+          "size": 5177746
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "gmod",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gmod-red-dead-redemption-2-takeover-addon-kit.zip",
+      "url": "https://github.com/SIGFAI/gmod-red-dead-redemption-2-takeover/releases/download/v1.0.0/gmod-red-dead-redemption-2-takeover-addon-kit.zip",
+      "sha256": "de090fbbc1ae7562f642d8c6a97e17bcb6619407cf4b246c8dbc071b3e5dfae6",
+      "size": 18083
+    },
+    {
+      "name": "gmod-red-dead-redemption-2-takeover.zip",
+      "url": "https://github.com/SIGFAI/gmod-red-dead-redemption-2-takeover/releases/download/v1.0.0/gmod-red-dead-redemption-2-takeover.zip",
+      "sha256": "b80ee01ad390912740062ef388501b8074a2e4ff63cf51ecec79cb41cf425f53",
+      "size": 5177746
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gmod-red-dead-redemption-2-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-e2754551.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gmod",
+    "status": "draft"
+  },
+  "built_at": "2026-10-09T15:44:24.751Z"
+}
