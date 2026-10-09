@@ -1,0 +1,7 @@
+Moments the clip must show (all seen in the preview screenshots):
+[x] 1. Dusty Gulch: sepia western town with saloon, sheriff and bank signs, cowboy-hat gunmen, wanted name tags, RDR2-style HUD (radar, cash, cores).
+[x] 2. Dead Eye: time slows, screen turns red, red X marks paint the enemies, then the Magnum picks them off.
+[x] 3. A WANTED boss appears with a poster and a health bar; the player takes him down: BOUNTY COLLECTED, then a new chapter title.
+[x] 4. Shooting TNT barrels (Garry's Mod explosive props) blows outlaws and their hats into the air.
+[x] 5. Stampede: horse statues (physics props) charge down the street and trample the outlaws.
+Weak: the lawmen are Half-Life 2 metropolice in gas masks (funny but not period); the town is boxy.

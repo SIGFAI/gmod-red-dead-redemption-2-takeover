@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sigf/planks"
+	"$model" "1"
+	"$alphatest" "1"
+}

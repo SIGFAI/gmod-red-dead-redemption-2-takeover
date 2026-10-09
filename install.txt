@@ -1,0 +1,1 @@
+Unzip the mod folder into garrysmod/addons/ as its own folder, then start Sandbox on any map. Dusty Gulch builds itself in the open, outlaws and deputies start shooting, and a Magnum-wielding bounty hunter plays the hero. No other content needed.
